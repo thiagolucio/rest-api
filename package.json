@@ -1,0 +1,12 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "rest api model nodejs",
+  "main": "index.js",
+  "author": "Thiago Lucio Bittencourt Thomaz<thiagolucio@gmail.com>",
+  "license": "rest, rest api, rest nodejs",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
