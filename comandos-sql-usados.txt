@@ -1,0 +1,17 @@
+
+SELECIONAR TABELAS:
+
+select * from users;
+
+ADICIONAR USUARIO EM TABLE
+
+insert into users (name_user)
+values ('Raquel Gouvea Lucio Bittencourt');
+
+
+
+DELETAR USUARIO:
+
+
+DELETE FROM `amigopet`.`users` WHERE (`id_user` = '3');
+DELETE FROM `amigopet`.`users` WHERE (`id_user` = '2')
