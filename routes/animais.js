@@ -45,14 +45,14 @@ router.post('/:id_animal', (req, res, next) => {
 
 
 // DELETANDO ANIMAL
-router.delete('/', (req, res, next) => {    
+router.delete('/', (req, res, next) => {
     res.status(200).send({
         message: 'Deletando Animal'
     })
 });
 
 // PATCH ou LISTAGEM ANIMAL
-router.patch('/', (req, res, next) => {    
+router.patch('/', (req, res, next) => {
     res.status(200).send({
         message: 'Listando todos os Animais'
     })

@@ -8,7 +8,7 @@ ADICIONAR USUARIO EM TABLE
 insert into users (name_user)
 values ('Raquel Gouvea Lucio Bittencourt');
 
-
+INSERT INTO `amigopet`.`users` (`name_user`) VALUES ('Thiago');
 
 DELETAR USUARIO:
 

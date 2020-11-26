@@ -11,6 +11,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+
 app.use((req, res, next) => {
     // res.header('Access-Control-Allow-Origin', 'https://servidor-especifico.com.br')
     // Abaixo aceita todos os servidores com asterisco
